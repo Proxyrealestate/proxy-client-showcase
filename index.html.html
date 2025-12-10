@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxy Real Estate - Client Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Light Pink/Purple Background */
+            background-color: #fce7f3; 
+        }
+        /* Define new custom color classes: Deep Purple (Primary) and Vibrant Pink (Accent) */
+        .text-proxy-primary { color: #830386; } /* Deep Magenta/Purple */
+        .text-proxy-accent { color: #ff3399; } /* Vibrant Pink */
+        .bg-proxy-primary { background-color: #830386; } /* Deep Magenta/Purple Background */
+        .bg-proxy-accent { background-color: #ff3399; } /* Vibrant Pink Background */
+        .border-proxy-primary { border-color: #830386; } 
+        .bg-section-light { background-color: #fff0f6; } /* Very Light Pink for sections */
+        .bg-footer-light { background-color: #f9d5e3; } /* Slightly darker pink for footer */
+        
+        /* Button Hover State */
+        .hover\:bg-proxy-accent-dark:hover { background-color: #e00073; }
+        
+        /* Custom Logo Font Styling */
+        .logo-text-accent { color: #ff99cc; } /* Lighter Pink for the 'RE' */
+    </style>
+</head>
+<body class="p-6 md:p-12">
+
+    <div class="max-w-7xl mx-auto bg-white rounded-xl shadow-2xl overflow-hidden border border-pink-100">
+        
+        <!-- HEADER / LOGO BAR -->
+        <header class="p-8 bg-proxy-primary text-white flex justify-between items-center rounded-t-xl">
+            <!-- Logo Text (Replaced placeholder with text based on logo from previous step) -->
+            <div class="text-4xl font-extrabold tracking-tight">
+                PROXY<span class="logo-text-accent font-normal">RE</span>
+            </div>
+            <!-- Tagline -->
+            <div class="text-sm uppercase font-light tracking-widest text-pink-200 text-right">
+                NYC's Full-Spectrum Real Estate Partner<br>
+                Commercial Rigor & Residential Insight
+            </div>
+        </header>
+
+        <!-- INTRO SECTION -->
+        <div class="p-8 border-b border-pink-200">
+            <h1 class="text-3xl font-bold text-proxy-primary mb-2">Our Client Portfolio: Two Decades of Diverse Expertise</h1>
+            <p class="text-gray-700">
+                In the real estate capital of the world, Proxy Real Estate excels by serving the full ecosystem—from first-time home buyers to global institutional investors. Our deep experience across all asset classes ensures that whether you are a startup securing your first office or a family office acquiring a portfolio, you receive the highest level of service and strategic value.
+            </p>
+        </div>
+
+        <!-- CLIENT CATEGORIES GRID -->
+        <div class="p-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+            <!-- COLUMN 1: RESIDENTIAL & PRIVATE CAPITAL -->
+            <div class="bg-section-light p-6 rounded-lg border-t-4 border-proxy-primary">
+                <h3 class="text-xl font-bold text-proxy-primary mb-4">Residential & Private Capital</h3>
+                <ul class="space-y-2 text-sm text-gray-700">
+                    <li><span class="font-semibold text-proxy-primary">• First Time Home Buyers</span></li>
+                    <li><span class="font-semibold text-proxy-primary">• Home Owners</span> (Upsizing or Downsizing)</li>
+                    <li><span class="font-semibold text-proxy-primary">• Relocation Buyers</span> (Corporate or Individual)</li>
+                    <li><span class="font-semibold text-proxy-primary">• Empty Nesters & Renters</span></li>
+                    <li><span class="font-semibold text-proxy-primary">• High-Net-Worth Individuals (HNWIs)</span></li>
+                    <li><span class="font-semibold text-proxy-primary">• Luxury & Specialty Buyers</span></li>
+                    <li><span class="font-semibold text-proxy-primary">• Foreign Nationals</span> (Pieds-à-terre)</li>
+                    <li><span class="font-semibold text-proxy-primary">• Family Offices</span> (Managing Ultra-HNW Wealth)</li>
+                    <li><span class="font-semibold text-proxy-primary">• Celebrities / Public Figures</span></li>
+                </ul>
+            </div>
+
+            <!-- COLUMN 2: COMMERCIAL & CORPORATE USERS -->
+            <div class="bg-section-light p-6 rounded-lg border-t-4 border-proxy-primary">
+                <h3 class="text-xl font-bold text-proxy-primary mb-4">Commercial & Corporate Users</h3>
+                <ul class="space-y-2 text-sm text-gray-700">
+                    <!-- Niche/Tech -->
+                    <li><span class="font-semibold text-proxy-primary">• Technology & AI Businesses</span> (Software, Hardware)</li>
+                    <li class="font-extrabold text-proxy-accent">**• Crypto / Blockchain Companies** (Specialized Office Needs)</li>
+                    <li><span class="font-semibold text-proxy-primary">• Venture Capital (VC) Firms</span></li>
+                    <!-- Professional Services -->
+                    <li><span class="font-semibold text-proxy-primary">• Financial Services</span> (Investment Banks, Brokerages)</li>
+                    <li><span class="font-semibold text-proxy-primary">• Law Firms & Accountants</span></li>
+                    <li><span class="font-semibold text-proxy-primary">• Advertising / Media Agencies</span></li>
+                    <!-- Retail/F&B -->
+                    <li><span class="font-semibold text-proxy-primary">• Retail Stores & Showrooms</span> (National Chains, Boutiques)</li>
+                    <li><span class="font-semibold text-proxy-primary">• Restaurants & Clubs</span> (Fine Dining, QSR, Music Venues)</li>
+                    <li><span class="font-semibold text-proxy-primary">• Specialized Operators</span> (Coworking, Gyms, Social Clubs)</li>
+                </ul>
+            </div>
+
+            <!-- COLUMN 3: INVESTMENT & DEVELOPMENT -->
+            <div class="bg-section-light p-6 rounded-lg border-t-4 border-proxy-primary">
+                <h3 class="text-xl font-bold text-proxy-primary mb-4">Institutional & Development</h3>
+                <ul class="space-y-2 text-sm text-gray-700">
+                    <!-- Institutional -->
+                    <li><span class="font-semibold text-proxy-primary">• Real Estate Funds</span> (Private Equity)</li>
+                    <li><span class="font-semibold text-proxy-primary">• Institutional Clients</span> (Endowments, Pension Funds)</li>
+                    <li><span class="font-semibold text-proxy-primary">• REITS & Sovereign Wealth Funds</span></li>
+                    <li><span class="font-semibold text-proxy-primary">• Banks & Insurance Companies</span></li>
+                    <!-- Development/Industrial -->
+                    <li><span class="font-semibold text-proxy-primary">• Residential & Commercial Developers</span></li>
+                    <li><span class="font-semibold text-proxy-primary">• Land Owners</span> (Seeking Joint Venture Equity)</li>
+                    <li><span class="font-semibold text-proxy-primary">• Industrial & Logistics</span> (Last-Mile Distribution)</li>
+                    <li><span class="font-semibold text-proxy-primary">• E-commerce Fulfillment Centers</span></li>
+                    <li><span class="font-semibold text-proxy-primary">• Film / Production Studios</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- FOOTER / CALL TO ACTION -->
+        <footer class="p-8 bg-footer-light border-t border-pink-200 flex flex-col md:flex-row justify-between items-center rounded-b-xl">
+            <div class="text-lg font-semibold text-proxy-primary mb-4 md:mb-0">
+                Ready to find your next New York success story?
+            </div>
+            <a href="mailto:hello@proxyre.io" class="bg-proxy-accent text-white font-bold py-3 px-6 rounded-full uppercase text-sm tracking-wider hover:bg-proxy-accent-dark transition duration-300 shadow-md">
+                Contact Proxy Real Estate
+            </a>
+        </footer>
+
+    </div>
+
+</body>
+</html>
